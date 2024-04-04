@@ -3,10 +3,10 @@ public class sec {
 
         int a = 2;
 
-        while (2 * a - 1 < 5000) {
-            int result = 2 * a - 1;
-            System.out.print(result + " ");
-            a++;
+        while (a < 5000) {
+            a = 2 * a - 1;
+            System.out.print(a + " ");
+            
         }
 
 
